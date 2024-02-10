@@ -1,6 +1,7 @@
 import caesar as caesar  #english letters only
+import atbash as atbash
 
-whatMethod = input('single character: c-ceasar cypher, o-other: ')
+whatMethod = input('single character: c-ceasar cypher, a-atbash : ')
 decOrEnc = input('do you want to decrypt or encrypt: d/e: ')
 
 if decOrEnc == 'd':
@@ -15,6 +16,6 @@ if whatMethod == 'c':#CEASAR
     else:
         print(caesar.encrypt(text, shift))
 
-elif whatMethod == 'o':#OTHER METHOD
-    print('no other methods to enc/dec yet')
+elif whatMethod == 'a':#ATBASH
+    print(atbash.encrypt(text))
 
