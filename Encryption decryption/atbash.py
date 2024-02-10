@@ -19,5 +19,5 @@ def encrypt(text):
     return result
 
 def decrypt(text):
-    pass
+    return encrypt(text) 
     

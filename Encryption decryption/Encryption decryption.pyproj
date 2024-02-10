@@ -26,6 +26,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="atbash.py" />
+    <Compile Include="atbashWithCaesar.py" />
     <Compile Include="caesar.py" />
     <Compile Include="Main.py" />
   </ItemGroup>
